@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div
+        class="flex items-center h-screen justify-center bg-gradient-to-r from-indigo-600 via-purple-700 from-20% to-purple-900">
+        <div class=" max-w-[600px] w-full bg-white px-6 py-10 rounded-lg shadow-lg">
+            <div>
+                <h1 class="text-lg font-serif font-extrabold text-center">Login Form</h1>
+            </div>
+
+            <div class="flex flex-col gap-4 mt-7">
+                <label class="text-lg font-semibold font-serif" for="">Username: </label>
+
+                <div class="relative">
+                    <input class="bg-slate-100 px-8 py-2 w-full border-b-2 border-gray-400 outline-none rounded-t-md" type="text"
+                        placeholder="Enter Your Username">
+                    <div class="absolute top-2 px-3">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4 mt-7">
+                <label class="text-lg font-semibold font-serif" for="">Password: </label>
+
+                <div class="relative">
+                    <input class="bg-slate-100 px-8 py-2 w-full border-b-2 border-gray-400 outline-none rounded-t-md" type="password"
+                        placeholder="Enter Your Password">
+                    <div class="absolute top-2 px-3">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-right mt-3 text-zinc-300 hover:text-black">
+                <span>Forgot Password</span>
+            </div>
+
+            <div class="mt-10 flex justify-center">
+                <button class="p-3 rounded-md font-serif font-semibold w-full bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-300">Login</button>
+            </div>
+
+            <div class="mt-10 flex justify-center">
+                <span>Or Sign Up Using</span>
+
+                <div class="flex gap-4 mt-5">
+                    <div class="mt-5 gap-4">
+                        <i class="fa-brands fa-facebook-f text-blue-700 text-2xl"></i>
+                        <i class="fa-brands fa-twitter text-blue-700 text-2xl"></i>
+                        <i class="fa-brands fa-skype text-blue-700 text-2xl"></i>
+
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+
+</html>
